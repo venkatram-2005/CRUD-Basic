@@ -1,0 +1,63 @@
+body{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+	border-radius: 10px;
+	border: 1px solid;
+    display: flex;
+    width: 80%;
+    background-color:turquoise;
+}
+
+.img, .form{
+    width: 50% ;
+    display: flex;
+}
+
+/* Image Section Styling */
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20b2aa; /* LightSeaGreen complement */
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form{
+    background-color:turquoise;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100% ;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+input, select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    background-color:lightseagreen;
+    border-radius: 10px;
+}
