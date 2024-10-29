@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>This is home page</h1>
+<h1>This is home page. Press the below button to see list</h1>
 <form action="ServletController" method="get">
 	<input type="hidden" name="display" value="display">
 	<button type="submit">Display Students</button>
